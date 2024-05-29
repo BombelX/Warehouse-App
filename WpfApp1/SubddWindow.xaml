@@ -1,0 +1,47 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1280" Width="720">
+    <Grid>
+        <Button  HorizontalAlignment="Left" VerticalAlignment="Top" Height="200" Width="123" >
+            <Image Source="lostitems
+                   .png" Width="132" Height="198" RenderTransformOrigin="0.5,0.579"></Image>
+
+        </Button>
+        <Button  HorizontalAlignment="Left" Height="200" Margin="123,0,0,0" VerticalAlignment="Top" Width="142"  >
+            <Image Source="skaner.png" Width="132" Height="198" RenderTransformOrigin="0.5,0.579"></Image>
+        </Button>
+        <Button Content="Button" HorizontalAlignment="Left" Height="100" Margin="265,100,0,0" VerticalAlignment="Top" Width="140"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="100" Margin="265,0,0,0" VerticalAlignment="Top" Width="140"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="200" Margin="405,0,0,0" VerticalAlignment="Top" Width="150"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="100" Margin="555,0,0,0" VerticalAlignment="Top" Width="165"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="100" Margin="555,100,0,0" VerticalAlignment="Top" Width="165"/>
+        <Label x:Name="poprzednio" Content="                                                  POPRZEDNIO&#xD;&#xA;:" HorizontalAlignment="Left" Margin="0,271,0,0" VerticalAlignment="Top" Height="31" Width="377" Background="#FF73C0D6"/>
+        <Button  x:Name="Nieznaleziono" Content="Button" Click="OnClick1" HorizontalAlignment="Left" Height="330" Margin="0,302,0,0" VerticalAlignment="Top" Width="62"/>
+        <Image Source="clothes.png" x:Name="ubranie_img" HorizontalAlignment="Left" Height="330" Margin="64,302,0,0" VerticalAlignment="Top" Width="312" RenderTransformOrigin="1,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform X="40"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <ProgressBar x:Name="progres" HorizontalAlignment="Center" Height="71" Margin="0,200,0,0" VerticalAlignment="Top" Width="720" Value="5"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="377,271,0,0" VerticalAlignment="Top" Height="31" Width="343" Background="#FF7797C5"/>
+        <Label x:Name="KOD" Content="KOD&#xD;&#xA;" HorizontalAlignment="Left" Margin="377,307,0,0" VerticalAlignment="Top" Height="61" Width="63" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" RenderTransformOrigin="0.492,0.886"/>
+        <Label x:Name="KOD_Copy" Content="LOK" HorizontalAlignment="Left" Margin="377,358,0,0" VerticalAlignment="Top" Height="56" Width="63" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20"/>
+        <Label x:Name="Nr_koszuli" Content="KO.12673" HorizontalAlignment="Left" Height="56" Margin="440,302,0,0" VerticalAlignment="Top" Width="280" Background="#FFA68E8E" FontSize="36" HorizontalContentAlignment="Center"/>
+        <Label x:Name="Nr_koszuli_Copy" Content="D1-1" HorizontalAlignment="Left" Height="56" Margin="440,358,0,0" VerticalAlignment="Top" Width="280" Background="#FFB49D9D" FontSize="36" HorizontalContentAlignment="Center" Foreground="Red"/>
+        <Button Content="Niżej&#xD;&#xA;" HorizontalAlignment="Left" Margin="480,414,0,0" VerticalAlignment="Top" Height="68" Width="48" FontSize="16"/>
+        <Button x:Name="wyzej" Content="Wyzej&#xD;&#xA;" HorizontalAlignment="Left" Margin="528,414,0,0" VerticalAlignment="Top" Height="68" Width="48" FontSize="16"/>
+        <Label x:Name="poprzednio_Copy" Content="NASTEPNE" HorizontalAlignment="Left" Margin="-1,632,0,0" VerticalAlignment="Top" Height="31" Width="376" Background="#FF73C0D6" HorizontalContentAlignment="Center"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="377,632,0,0" VerticalAlignment="Top" Height="31" Width="344" Background="#FF7797C5"/>
+
+    </Grid>
+</Window>

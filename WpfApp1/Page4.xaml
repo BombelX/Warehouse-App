@@ -1,0 +1,63 @@
+﻿<Page x:Class="WpfApp1.Page4"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1"
+      mc:Ignorable="d" 
+      d:DesignHeight="1200" d:DesignWidth="720"
+      Title="Page4">
+
+    <Grid Background="#FFFFFEE1">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+
+        <Image Source="/assets/time_to_break.png" Grid.Row="0"/>
+
+        <Grid Grid.Row="1" Margin="100, 50">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="4*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <Label Content="Now" Background="#FFEFD796" BorderThickness="2,0,2,2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontFamily="Segoe Script" Margin="5" />
+            <Label x:Name="now_break" Content="00:00:00" Background="#FFF3E4B9" BorderThickness="0,2,0,2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Ink Free" FontSize="24" Grid.Column="1" Margin="5" />
+
+            <Label Content="In total" Background="#FFEFD796" BorderThickness="2,2,2,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Segoe Script" FontSize="20" Grid.Row="1" Margin="5"/>
+            <Label x:Name="in_total_break" Content="00:00:00" Background="#FFF3E4B9" BorderThickness="0,2,0,2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24" FontFamily="Ink Free" Grid.Column="1" Grid.Row="1" Margin="5"/>
+
+        </Grid>
+
+        <Button Background="Transparent" Click="ReturnButton_Click" Grid.Row="2" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" >
+            <Canvas>
+                <Path Canvas.Top="-160" Canvas.Left="50"  Grid.Row="2" Fill="#FFF5E9C7" Stroke="#3e8083"  >
+                    <Path.Data>
+                        <PathGeometry>
+                            <PathFigure StartPoint="100,330">
+                                <ArcSegment Point="100,400" Size="15,10" IsLargeArc="False"/>
+                                <ArcSegment Point="140,440" Size="30,50" IsLargeArc="False"/>
+                                <ArcSegment Point="230,480" Size="60,50" IsLargeArc="False"/>
+                                <ArcSegment Point="340,480" Size="60,50" IsLargeArc="False" />
+                                <ArcSegment Point="450,440" Size="65,50" IsLargeArc="False" />
+                                <ArcSegment Point="540,400" Size="50,50" IsLargeArc="False" />
+                                <ArcSegment Point="540,330" Size="50,40" IsLargeArc="True" />
+                                <ArcSegment Point="450,300" Size="50,40" IsLargeArc="False" />
+                                <ArcSegment Point="340,280" Size="50,40" IsLargeArc="False" />
+                                <ArcSegment Point="220,290" Size="30,30" IsLargeArc="False" />
+                                <ArcSegment Point="100,330" Size="30,20" IsLargeArc="False" />
+                            </PathFigure>
+                        </PathGeometry>
+                    </Path.Data>
+                </Path>
+                <Image Source="/assets/end_break_arrow.png" Width="234" Canvas.Left="255" Canvas.Top="73" Height="241" />
+            </Canvas>
+        </Button>
+    </Grid>
+</Page>

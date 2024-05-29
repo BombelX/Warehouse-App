@@ -1,0 +1,13 @@
+C:\Users\adamr\Desktop\Nowy folder (5)\test\WpfApp1.exe
+C:\Users\adamr\Desktop\Nowy folder (5)\test\WpfApp1.dll
+C:\Users\adamr\Desktop\Nowy folder (5)\test\WpfApp1.deps.json
+C:\Users\adamr\Desktop\Nowy folder (5)\test\WpfApp1.runtimeconfig.json
+C:\Users\adamr\Desktop\Nowy folder (5)\test\WpfApp1.pdb
+C:\Users\adamr\Desktop\Nowy folder (5)\test\System.Data.SqlClient.dll
+C:\Users\adamr\Desktop\Nowy folder (5)\test\runtimes\win-arm64\native\sni.dll
+C:\Users\adamr\Desktop\Nowy folder (5)\test\runtimes\win-x64\native\sni.dll
+C:\Users\adamr\Desktop\Nowy folder (5)\test\runtimes\win-x86\native\sni.dll
+C:\Users\adamr\Desktop\Nowy folder (5)\test\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\adamr\Desktop\Nowy folder (5)\test\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\adamr\Desktop\Nowy folder (5)\test\Microsoft.PointOfService.dll
+C:\Users\adamr\Desktop\Nowy folder (5)\test\Microsoft.PointOfService.xml

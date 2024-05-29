@@ -1,0 +1,5 @@
+C:\Users\adamr\Desktop\Nowy folder (5)\kompl\WpfApp1.exe
+C:\Users\adamr\Desktop\Nowy folder (5)\kompl\WpfApp1.dll
+C:\Users\adamr\Desktop\Nowy folder (5)\kompl\WpfApp1.deps.json
+C:\Users\adamr\Desktop\Nowy folder (5)\kompl\WpfApp1.runtimeconfig.json
+C:\Users\adamr\Desktop\Nowy folder (5)\kompl\WpfApp1.pdb

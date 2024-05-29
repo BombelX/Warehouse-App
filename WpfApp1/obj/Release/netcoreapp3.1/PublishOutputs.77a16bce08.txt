@@ -1,0 +1,11 @@
+C:\Users\adamr\OneDrive\Desktop\wpf\WpfApp1.exe
+C:\Users\adamr\OneDrive\Desktop\wpf\WpfApp1.dll
+C:\Users\adamr\OneDrive\Desktop\wpf\WpfApp1.deps.json
+C:\Users\adamr\OneDrive\Desktop\wpf\WpfApp1.runtimeconfig.json
+C:\Users\adamr\OneDrive\Desktop\wpf\WpfApp1.pdb
+C:\Users\adamr\OneDrive\Desktop\wpf\System.Data.SqlClient.dll
+C:\Users\adamr\OneDrive\Desktop\wpf\runtimes\win-arm64\native\sni.dll
+C:\Users\adamr\OneDrive\Desktop\wpf\runtimes\win-x64\native\sni.dll
+C:\Users\adamr\OneDrive\Desktop\wpf\runtimes\win-x86\native\sni.dll
+C:\Users\adamr\OneDrive\Desktop\wpf\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\adamr\OneDrive\Desktop\wpf\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
